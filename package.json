@@ -1,0 +1,23 @@
+{
+  "name": "find-my-restaurant",
+  "version": "0.0.0",
+  "private": true,
+  "description": "This is the codebase for find-my-restaurant backend.",
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "author": "Prathamesh Lakhapati",
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "hbs": "~4.0.4",
+    "http-errors": "~1.6.3",
+    "mongoose": "^7.0.3",
+    "morgan": "~1.9.1",
+    "validator": "^13.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
